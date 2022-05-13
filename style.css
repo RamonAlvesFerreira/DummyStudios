@@ -1,0 +1,44 @@
+body, footer
+{
+    background-color: black;
+}
+.Lines
+{
+    background-color:  #440000; 
+    height: 4px;
+}
+.MyButtons, .FooterButtons
+{
+    background-color: #050505; 
+    color: #810000;  
+    font-size: 24px;
+}
+.HeaderButtons
+{
+    background-color: #050505;
+}
+
+.Mybody
+{
+    margin: 0px auto;
+    background-color: rgb(8, 8, 8);
+}
+.card
+{
+    padding: 0px;
+    margin: 0px auto;
+
+}
+
+.FooterClassButtons
+{
+    background-color: black;
+    justify-content: center;
+
+}
+.FooterButtons
+{
+    background-color: #000000; 
+    font-size: 18px;
+}
+
