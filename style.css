@@ -4,14 +4,15 @@ body, footer
 }
 .Lines
 {
-    background-color:  #440000; 
-    height: 4px;
+    background-color:  #313131; 
+    height: 2px;
 }
 .MyButtons, .FooterButtons
 {
     background-color: #050505; 
-    color: #810000;  
+    color: #ececec;  
     font-size: 24px;
+    font-family: 'himalaya';
 }
 .HeaderButtons
 {

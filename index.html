@@ -6,6 +6,7 @@
         <!--<link href="../Aula 4 - HTML, CSS, JavaScript/css/bootstrap.css" rel="stylesheet"/>-->
         <link href="../DummyGames/css/bootstrap.css" rel="stylesheet"/>
         <link href="../DummyGames/style.css" rel="stylesheet"/>
+        <link rel="icon" href="../DummyGames/images/Doll.png">
 
     </head>
     <body>
@@ -15,41 +16,84 @@
 
             <!--Image-->
             <div class="text-center">
-                <img src="../DummyGames/images/Logo_DummyGameSudios.png" class="rounded" width="200px">
+                <img src="../DummyGames/images/Name.png" class="rounded" width="400px">
             </div>
 
-            <!--Line-->
-            <div class="Lines col-xs-12">
-
-            </div>
-
-            <!--Buttons-->
-            <div class="row HeaderButtons">
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 HeaderButtons">
-                    <button type="button" class="MyButtons btn btn-secondary btn-lg btn-block">Home</button>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 HeaderButtons">
-                    <button type="button" class="MyButtons btn btn-secondary btn-lg btn-block" href="https://gamejolt.com/@Dummy_Games_Studio">Games</button>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 HeaderButtons">
-                    <button type="button" class="MyButtons btn btn-secondary btn-lg btn-block">About Us</button>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 HeaderButtons">
-                    <button type="button" class="MyButtons btn btn-secondary btn-lg btn-block">Members</button>
-                </div>
             <div>
-            <!--Line-->
-            <div class="Lines col-xs-12">
+                <!--Line-->
+                <div class="col-xs-12 d-flex align-items-center">
+                    <div class="col-xs-1"></div>
+                    <div class="Lines col-xs-10"></div>
+                </div>
 
+                <!--Buttons-->
+                <div class="row HeaderButtons">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 HeaderButtons">
+                        <button type="button" class="MyButtons btn btn-secondary btn-lg btn-block">Home</button>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 HeaderButtons">
+                        <button type="button" class="MyButtons btn btn-secondary btn-lg btn-block">News</button>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 HeaderButtons">
+                        <button type="button" class="MyButtons btn btn-secondary btn-lg btn-block" href="https://gamejolt.com/@Dummy_Games_Studio">Products</button>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 HeaderButtons">
+                        <button type="button" class="MyButtons btn btn-secondary btn-lg btn-block" src="../DummyGames/AboutUs.html">Company</button>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 HeaderButtons">
+                        <button type="button" class="MyButtons btn btn-secondary btn-lg btn-block">Members</button>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 HeaderButtons">
+                        <button type="button" class="MyButtons btn btn-secondary btn-lg btn-block">Recruit</button>
+                    </div>
+                <div>
+                <!--Line-->
+                <div class="col-xs-12 d-flex align-items-center">
+                    <div class="col-xs-1"></div>
+                    <div class="Lines col-xs-10"></div>
+                </div>
             </div>
         </header>
 
         <!--Body-->
 
         <!--BaseImage-->
-        <div class="text-center">
-            <img src="../DummyGames/images/Wallpaper2.png" class="Responsive image" width="100%">
-        </div>
+        <div class="container">
+            <h2>Carousel Example</h2>  
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="../DummyGames/images/Wallpaper1.png" alt="Los Angeles" style="width:100%;">
+                </div>
+          
+                <div class="item">
+                  <img src="../DummyGames/images/Wallpaper2.png" alt="Chicago" style="width:100%;">
+                </div>
+              
+                <div class="item">
+                  <img src="../DummyGames/images/Wallpaper1.png" alt="New york" style="width:100%;">
+                </div>
+              </div>
+          
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
 
         <!--Line-->
         <div class="Lines col-xs-12">
@@ -134,38 +178,49 @@
             </div>
 
             
-            <div class="col-xs-12" style="height: 6rem;">
-
-            </div>
+            <div class="col-xs-12" style="height: 6rem;"></div>
 
         </div>
 
 
         <!--Footer-->
-        <footer>
-            <!--Line-->
-            <div class="Lines col-xs-12">
+        <footer role="contentinfo">
+            <div class="col-xs-12 d-flex align-items-center">
+                <div class="col-xs-1"></div>
+                <div class="Lines col-xs-10"></div>
+            </div>
+
+            <div class="col-xs-12" style="height: 1rem;"></div>
+             <!--Buttons-->
+            <div class="social-links text-center" style="background-color:  #0f0f0f; ">
+                <a class="component image-link" href="https://www.instagram.com/dummygames_official/">
+                    <img width="60" height="60" alt="Instagram"  src="../DummyGames/images/Icons/Instagram.png">
+                </a>
+                <a class="component image-link" href="https://www.facebook.com/dummygamestudios/">
+                    <img width="60" height="60" alt="Facebook"  src="../DummyGames/images/Icons/Facebook.png">
+                </a>
+                <a class="component image-link" href="https://www.youtube.com/channel/UCF5LvlZ3DSWDer-C1_GS3VA">
+                    <img width="60" height="60" alt="Youtube"  src="../DummyGames/images/Icons/Youtube.png">
+                </a>
+                <a class="component image-link" href="https://gamejolt.com/@Dummy_Games_Studio">
+                    <img width="60" height="60" alt="Gamejolt"  src="../DummyGames/images/Icons/Gamejolt.png">
+                </a>
 
             </div>
 
-             <!--Buttons-->
-            <a class="text-center">
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 FooterClassButtons">
-                    <button type="button" class="FooterButtons btn btn-secondary btn-lg btn-line">Home</button>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 FooterClassButtons">
-                    <button type="button" class="FooterButtons btn btn-secondary btn-lg btn-line" href="https://gamejolt.com/@Dummy_Games_Studio">Games</button>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 FooterClassButtons">
-                    <button type="button" class="FooterButtons btn btn-secondary btn-lg btn-line">About Us</button>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 FooterClassButtons">
-                    <button type="button" class="FooterButtons btn btn-secondary btn-lg btn-line">Members</button>
-                </div>
-            </a>
-            <div class="Lines col-xs-12">
+            <div class="col-xs-12 d-flex align-items-center">
+                <div class="col-xs-1"></div>
+                <div class="Lines col-xs-10"></div>
+            </div>
 
+            <div class="col-xs-12" style="height: 6rem;"></div>
+            <div class="info text-center">
+                <img src="../DummyGames/images/DUMMY.png" class="Responsive image" width="200">
+                <p>© DUMMY GAMES, 2022 All Rights Reserved</p>
             </div>
         </footer>
     </body>
 </html>
+
+
+
