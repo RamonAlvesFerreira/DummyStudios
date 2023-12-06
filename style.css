@@ -87,6 +87,12 @@ h1 {
     padding-bottom: 75px;
 }
 
+.TeamBaseInfo {
+    background-color: #0a0a0a;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 /* Title Games Text */
 h2 {
     font-size: 25px;
