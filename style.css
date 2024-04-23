@@ -146,3 +146,53 @@ h4 {
     font-size: 32px;
     font-family: 'Times New Roman', serif;
 }
+
+/*Footer*/
+.footer-container
+{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #0f0f0f; 
+    padding: 7px;
+}
+.lineClassDivision
+{
+    height: 6rem;
+}
+.responsive_img
+{
+    width: 150;
+}
+.social_media_img
+{
+    margin: 3px;
+}
+.social-links
+{
+    background-color: #0f0f0f; 
+    padding: 7px 0; 
+    margin-left: 70px;
+}
+.contact-info
+{
+    margin-right: 130px;
+}
+.contact_us{
+    color: #ffffff; 
+    margin-bottom: 5px; 
+    margin-left: 0px;
+}
+.email_contact_format
+{
+    margin-left: 10px;
+}
+.base_ring_div
+{
+    padding: 20px 7px; 
+    margin-right: 65px;
+}
+.sponsor-info
+{
+    margin-top: 00px;
+}
