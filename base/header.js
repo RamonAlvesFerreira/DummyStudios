@@ -49,7 +49,11 @@ function createHeader(headers) {
         a_logo.classList.add('col-lg-1');
         a_logo.href = 'index.html';
         
-  
+        a_logo.appendChild(img_logo);
+        divRow.appendChild(a_logo);
+
+        // Anexa a linha do logo ao cabeçalho
+        nav.appendChild(divRow);
 
         // Cria e configura os botões
         var divButtonsRow = document.createElement('div'); // Nova linha para os botões
