@@ -44,6 +44,31 @@ footer {
     text-align: center;
     font-size: 22px;
     background-color: #05050500;
+    margin-right: 2px; /* Adiciona margem de 2px entre os botões */
+}
+
+/* Ajusta o espaçamento à direita para mover os botões para a direita */
+.col-lg-5 {
+    margin-right: 52px; /* Ajuste a largura conforme necessário */
+}
+
+/* Estilo para as linhas verticais entre os botões do cabeçalho */
+.HeaderButtons + .HeaderButtons::before {
+    content: '';
+    position: absolute;
+    border-left: 1px solid #474747;
+    height: 33px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.HeaderButtons:nth-of-type(3) + .HeaderButtons::before {
+    margin-left: -54px; 
+}
+.HeaderButtons:nth-of-type(4) + .HeaderButtons::before {
+    margin-left: -50px; 
+}
+.HeaderButtons:nth-of-type(5) + .HeaderButtons::before {
+    margin-left: -36px; 
 }
 
 /* Styling for background image */
@@ -196,3 +221,5 @@ h4 {
 {
     margin-top: 00px;
 }
+
+
