@@ -62,13 +62,13 @@ footer {
     transform: translateY(-50%);
 }
 .HeaderButtons:nth-of-type(3) + .HeaderButtons::before {
-    margin-left: -54px; 
+    margin-left: -56px; 
 }
 .HeaderButtons:nth-of-type(4) + .HeaderButtons::before {
     margin-left: -50px; 
 }
 .HeaderButtons:nth-of-type(5) + .HeaderButtons::before {
-    margin-left: -36px; 
+    margin-left: -38px; 
 }
 
 /* Styling for background image */
