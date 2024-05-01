@@ -194,7 +194,7 @@ function createFooter (footers)
 
             div_img_dummy.appendChild(img_dummy_doll);
 
-            h5_dummy_rights.innerHTML = '© DUMMY GAMES, 2022 All Rights Reserved';
+            h5_dummy_rights.innerHTML = '© DUMMY STUDIOS, 2022 All Rights Reserved';
 
             div_img_dummy.appendChild(h5_dummy_rights);
         
