@@ -87,7 +87,7 @@ function createFooter (footers)
                 a_link_facebook.target = '_blank';
 
                 img_link_facebook.classList.add('social_media_img');
-                img_link_facebook.src = 'https://i.imgur.com/l6YQ4zo.png';
+                img_link_facebook.src = 'https://imgur.com/U0hZAld.png';
                 img_link_facebook.height = 40;
                 img_link_facebook.alt = 'Facebook';
 
@@ -102,7 +102,7 @@ function createFooter (footers)
                 a_link_youtube.target = '_blank';
 
                 img_link_youtube.classList.add('social_media_img');
-                img_link_youtube.src = 'https://i.imgur.com/CMGKg2c.png';
+                img_link_youtube.src = 'https://imgur.com/v7G9E4U.png';
                 img_link_youtube.height = 40;
                 img_link_youtube.alt = 'YouTube';
 
@@ -117,7 +117,7 @@ function createFooter (footers)
                 a_link_gamejolt.target = '_blank';
 
                 img_link_gamejolt.classList.add('social_media_img');
-                img_link_gamejolt.src = 'https://i.imgur.com/2ozpiPF.png';
+                img_link_gamejolt.src = 'https://imgur.com/Yri9VC0.png';
                 img_link_gamejolt.height = 40;
                 img_link_gamejolt.alt = 'GameJolt';
 
