@@ -128,7 +128,7 @@ h1 {
 h2 {
     font-size: 25px;
     text-align: center;
-    color:rgb(112, 1, 1);
+    color: rgb(169, 169, 169);
     opacity: 1;
     font-family: 'Times New Roman', serif;
     font-weight: bold;
@@ -168,11 +168,13 @@ p {
     font-size: 40px;
     font-family: 'Times New Roman', serif;
     text-align: left;
-    color: rgb(112, 1, 1);
+    color:  rgb(169, 169, 169);
     opacity: 1;
     margin-top: 00px; /* Move o título 40 pixels para cima */
     margin-bottom: 50px; /* Adiciona uma margem inferior para separar do parágrafo seguinte */
     margin-left: 00px; /* Move o título para a esquerda */
+    font-weight: bold;
+    
 }
 
 
@@ -180,6 +182,17 @@ p {
     max-width: 1700px; /* Defina o valor máximo de largura desejado */
     margin-left: auto; /* Alinhe a linha à direita */
     margin-right: auto; /* Alinhe a linha à esquerda */
+    height: 1px;
+   
+}
+
+
+.Title-line {
+    max-width: 1700px; /* Defina o valor máximo de largura desejado */
+    margin-left: auto; /* Alinhe a linha à direita */
+    margin-right: auto; /* Alinhe a linha à esquerda */
+    margin-top: -45px; /* Ajuste a posição vertical da linha */
+   color:  rgb(110, 110, 110);
 }
 
 /* Contact us text */
@@ -262,7 +275,8 @@ h4 {
 .read-more-link {
     color: rgb(112, 1, 1);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 20px; /* Mantenha o tamanho da fonte */
+    padding: 10px 12px; /* Ajuste apenas o preenchimento na vertical */
     margin-left: 50px;
     vertical-align: center;
 }
@@ -271,7 +285,6 @@ h4 {
     color: rgb(112, 1, 1);
     background-color: rgb(19, 0, 0);
 }
-
 .image-news {
     margin-top: 40px; /* Altere o valor conforme necessário */
 }
