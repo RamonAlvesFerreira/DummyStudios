@@ -29,23 +29,51 @@ footer {
 .MyButtons,
 .FooterButtons {
     vertical-align: center;
-    padding: 30px;
+    padding: 16px;
     text-align: center;
-    background-color: #0f0f0f;
     color: rgb(169, 169, 169);
-    font-size: 25px;
     font-family: 'Times New Roman', serif;
+    font-size: 25px;
+    background-color: #0f0f0f;
 }
 
 /* Styling for header buttons */
 .HeaderButtons {
+    vertical-align: center;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #05050500;
+    margin-right: 2px;
+}
+.TextHeaderButtons{
     font-family: 'Times New Roman', serif;
     vertical-align: center;
     text-align: center;
+    color: rgb(169, 169, 169);
     font-size: 22px;
-    background-color: #05050500;
-    margin-right: 2px; /* Adiciona margem de 2px entre os botões */
+    margin-top: -35px;
 }
+
+.HeaderButtons::before {
+    content: '';
+    font-size: 22px;
+    border-left: 1px solid #474747;
+    margin-left: -110px;
+}
+
+.FirstHeaderButtons{
+    vertical-align: center;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #05050500;
+    margin-right: 2px;
+}
+.FirstHeaderButtons::before {
+    content: '';
+    font-size: 22px;
+    margin-left: -110px;
+}
+
 
 /* Ajusta o espaçamento à direita para mover os botões para a direita */
 .col-lg-5 {
@@ -53,27 +81,20 @@ footer {
 }
 
 /* Estilo para as linhas verticais entre os botões do cabeçalho */
-.HeaderButtons + .HeaderButtons::before {
-    content: '';
-    position: absolute;
-    border-left: 1px solid #474747;
-    height: 33px;
-    top: 50%;
-    transform: translateY(-50%);
-}
+/*
 .HeaderButtons:nth-of-type(3) + .HeaderButtons::before {
     margin-left: -56px; 
 }
 .HeaderButtons:nth-of-type(4) + .HeaderButtons::before {
     margin-left: -50px; 
 }
-.HeaderButtons:nth-of-type(5) + .HeaderButtons::before {
+.HeaderButtons:nth-of-type(5) + .HeaderButtons::after {
     margin-left: -38px; 
-}
+}*/
 
 
 .image-link img {
-    margin-left: 45px; /* Ajuste o valor da margem esquerda conforme necessário */
+    margin-left: 20px; /*Ajuste o valor da margem esquerda conforme necessário */
 }
 
 
