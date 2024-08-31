@@ -31,6 +31,10 @@ function createFooter (footers)
 
         var a_link_gamejolt = document.createElement('a');
         var img_link_gamejolt = document.createElement('img');
+        
+
+        var a_link_discord = document.createElement('a');  // Adicionado para o Discord
+        var img_link_discord = document.createElement('img');  // Adicionado para o Discord
 
         var div_end_1 = document.createElement('div');
         var div_end_2 = document.createElement('div');
@@ -124,6 +128,21 @@ function createFooter (footers)
                 a_link_gamejolt.appendChild(img_link_gamejolt);
                 div_social_links.appendChild(a_link_gamejolt);
                 div_content.appendChild(div_social_links);
+
+
+            /* 5 - Discord */
+                a_link_discord.classList.add('component');
+                a_link_discord.classList.add('image-link');
+                a_link_discord.href = 'https://discord.gg/EQVYxFWG';
+                a_link_discord.target = '_blank';
+
+                img_link_discord.classList.add('social_media_img');
+                img_link_discord.src = 'https://i.imgur.com/sVgrljf.png';
+                img_link_discord.height = 40;
+                img_link_discord.alt = 'Discord';
+
+                a_link_discord.appendChild(img_link_discord);
+                div_social_links.appendChild(a_link_discord);
 
 
             footer.appendChild(div_content);
