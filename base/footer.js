@@ -33,8 +33,8 @@ function createFooter (footers)
         var img_link_gamejolt = document.createElement('img');
         
 
-        var a_link_discord = document.createElement('a');  // Adicionado para o Discord
-        var img_link_discord = document.createElement('img');  // Adicionado para o Discord
+        var a_link_discord = document.createElement('a');  
+        var img_link_discord = document.createElement('img');  
 
         var div_end_1 = document.createElement('div');
         var div_end_2 = document.createElement('div');
